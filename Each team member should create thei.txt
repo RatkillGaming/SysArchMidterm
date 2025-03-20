@@ -1,0 +1,71 @@
+Each team member should create their own feature branches. You can do this using the command line:
+git checkout -b feature-branch-1
+//======================================================================================================================
+Make your changes and commit them:
+git add .
+git commit -m "feat: added new feature"
+//======================================================================================================================
+Push the branch to GitHub:
+git push origin feature-branch-1
+//======================================================================================================================
+Create another feature branch:
+git checkout -b feature-branch-2
+//======================================================================================================================
+Step 3: Use Pull Requests and Code Reviews
+Create a Pull Request:
+
+Go to your GitHub repository.
+Click on the "Pull requests" tab.
+Click on "New pull request".
+Select your feature branch and compare it with the main branch.
+Add a title and description, then click "Create pull request".
+Review Process:
+
+Your partner should review the pull request, provide feedback, and approve it.
+Once approved, you can merge the pull request by clicking the "Merge pull request" button.
+Resolve Merge Conflicts (if any):
+
+If there are conflicts, GitHub will indicate this. You will need to resolve them locally:
+//======================================================================================================================
+Step 4: Use Meaningful Commit Messages
+Ensure that each commit message follows the format:
+feat: added input validation
+fix: corrected database connection issue
+Aim for at least 10 commits throughout the project.
+//======================================================================================================================
+Step 5: Use GitHub Issues for Task Management
+Create Issues:
+Go to the "Issues" tab in your repository.
+Click on "New issue".
+Create at least three issues related to your project tasks.
+Assign issues to team members and document progress.
+//======================================================================================================================
+Step 6: Document the Git Workflow
+Create a README.md file:
+In your repository, create a README.md file.
+Include the following sections:
+Project Overview: Brief description of your MVC application.
+Steps to Clone and Run the Application: Instructions for others to clone and run your project.
+Git Workflow Explanation: Describe your branching strategy, merging process, and PR workflow.
+//======================================================================================================================
+Step 7: Submit a Final Report & Video
+Prepare the Final Report:
+
+Include the following:
+GitHub repository link.
+Summary of branching workflow.
+Commit history screenshot (use git log or GitHub interface).
+Pull requests and review process (with screenshots).
+Challenges faced and solutions.
+//======================================================================================================================
+Create a Video Demonstration:
+
+Record a 5-10 minute video covering:
+Overview of the GitHub repository.
+Demonstration of branching, merging, PRs, and issues.
+Explanation of challenges and lessons learned.
+//======================================================================================================================
+Final Steps
+Ensure all your work is pushed to GitHub.
+Review the requirements to ensure everything is complete.
+Submit your final report and video as per your course guidelines.
