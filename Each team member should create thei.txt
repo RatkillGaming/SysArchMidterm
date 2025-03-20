@@ -39,7 +39,7 @@ Go to the "Issues" tab in your repository.
 Click on "New issue".
 Create at least three issues related to your project tasks.
 Assign issues to team members and document progress.
-//======================================================================================================================
+//====================================================================================================================== SYDNEY PART OG KATONG USA NATO
 Step 6: Document the Git Workflow
 Create a README.md file:
 In your repository, create a README.md file.
