@@ -1,0 +1,10 @@
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\bin\x86\Debug\SysArchPrelim.exe.config
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\bin\x86\Debug\SysArchPrelim.exe
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\bin\x86\Debug\SysArchPrelim.pdb
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.csproj.AssemblyReference.cache
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.Form1.resources
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.Properties.Resources.resources
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.csproj.GenerateResource.cache
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.csproj.CoreCompileInputs.cache
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.exe
+C:\Users\Zeth\source\repos\SysArchPrelim\SysArchPrelim\obj\x86\Debug\SysArchPrelim.pdb
