@@ -7,7 +7,7 @@ namespace SysArchPrelim
     {
         private OleDbConnection connection;
 
-        public DBConnect()
+        public DBConnect()//test
         {
             connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb");
         }
