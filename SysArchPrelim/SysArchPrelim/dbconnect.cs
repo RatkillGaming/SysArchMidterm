@@ -20,7 +20,7 @@ namespace SysArchPrelim
             }
         }
 
-        public void CloseConnection()
+        public void CloseConnection()//ASD
         {
             if (connection.State == System.Data.ConnectionState.Open)
             {
