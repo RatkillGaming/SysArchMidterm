@@ -8,7 +8,7 @@ git commit -m "feat: added new feature"
 Push the branch to GitHub:
 git push origin feature-branch-1
 //======================================================================================================================
-Create another feature branch:
+Create another feature branch:ASD
 git checkout -b feature-branch-2
 //======================================================================================================================
 Step 3: Use Pull Requests and Code Reviews
