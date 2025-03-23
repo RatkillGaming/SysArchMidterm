@@ -7,10 +7,10 @@ namespace SysArchPrelim
     {
         private OleDbConnection connection;
 
-        public DBConnect()
+        public DBConnect()//QWE
         {
             connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb");
-            //C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb - ZETH'S SOURCE PATH
+            //C:\Users\john2\Documents\GitHub\SysArchMidterm\SysArchPrelim - SYDNEY'S SOURCE PATH
         }
 
         public void OpenConnection()
@@ -21,7 +21,7 @@ namespace SysArchPrelim
             }
         }
 
-        public void CloseConnection()//ASD
+        public void CloseConnection()
         {
             if (connection.State == System.Data.ConnectionState.Open)
             {
