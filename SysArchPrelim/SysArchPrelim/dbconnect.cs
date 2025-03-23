@@ -13,7 +13,7 @@ namespace SysArchPrelim
             //C:\Users\john2\Documents\GitHub\SysArchMidterm\SysArchPrelim - SYDNEY'S SOURCE PATH
         }
 
-        public void OpenConnection()
+        public void OpenConnection()//AHOHO
         {
             if (connection.State == System.Data.ConnectionState.Closed)
             {
