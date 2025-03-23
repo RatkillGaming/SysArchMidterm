@@ -10,6 +10,7 @@ namespace SysArchPrelim
         public DBConnect()
         {
             connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb");
+            //C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb - ZETH'S SOURCE PATH
         }
 
         public void OpenConnection()
