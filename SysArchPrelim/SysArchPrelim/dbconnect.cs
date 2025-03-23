@@ -3,7 +3,7 @@ using System.Data.OleDb;
 
 namespace SysArchPrelim
 {
-    public class DBConnect
+    public class DBConnect//AHIHI
     {
         private OleDbConnection connection;
 
