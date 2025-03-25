@@ -31,7 +31,7 @@ namespace SysArchPrelim
                 dt.Load(reader);
                 CollegeDataGridView.DataSource = dt;
             }
-            catch (Exception ex)
+            catch (Exception ex) //added a catch exception
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
