@@ -128,7 +128,7 @@ namespace SysArchPrelim
                     }
                     else
                     {
-                        MessageBox.Show("Record not found!");
+                        MessageBox.Show("Record not found!");//no record found
                     }
                 }
                 catch (Exception ex)
