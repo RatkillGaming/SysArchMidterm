@@ -118,7 +118,7 @@ namespace SysArchPrelim
                 {
                     dbConnect.OpenConnection();//open a connection
                     string query = $"SELECT * FROM Department WHERE DepartmentID={DepartmentIDTextBox.Text}";//query by ID
-                    OleDbDataReader reader = dbConnect.ExecuteQuery(query);
+                    OleDbDataReader reader = dbConnect.ExecuteQuery(query);//execute query
                     if (reader.Read())
                     {
                         CollegeIDTextBox.Text = reader["CollegeID"].ToString();
