@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\sysarchprelim\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\sysarchprelim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|solutionrelative:sysarchprelim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|c:\\users\\john2\\documents\\github\\sysarchmidterm\\sysarchprelim\\sysarchprelim\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|solutionrelative:sysarchprelim\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|c:\\users\\john2\\documents\\github\\sysarchmidterm\\sysarchprelim\\sysarchprelim\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\sysarchprelim\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|solutionrelative:sysarchprelim\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -16,10 +20,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SysArchPrelim||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\sysarchprelim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|solutionrelative:sysarchprelim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F283DA93-0148-4DF9-AA0E-B71050B7A25C}|SysArchPrelim\\SysArchPrelim.csproj|C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\sysarchprelim\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "SysArchPrelim\\Form1.Designer.cs",
@@ -79,11 +79,12 @@
               "RelativeToolTip": "SysArchPrelim\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T05:37:59.851Z"
+              "WhenOpened": "2025-02-25T05:37:59.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dbconnect.cs",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\dbconnect.cs",
               "RelativeDocumentMoniker": "SysArchPrelim\\dbconnect.cs",
@@ -91,18 +92,17 @@
               "RelativeToolTip": "SysArchPrelim\\dbconnect.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA1wA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T05:32:05.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T05:32:05.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form2.cs",
               "RelativeDocumentMoniker": "SysArchPrelim\\Form2.cs",
               "ToolTip": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form2.cs",
               "RelativeToolTip": "SysArchPrelim\\Form2.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T05:28:35.675Z",
               "EditorCaption": ""
@@ -113,26 +113,28 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form1.cs",
               "RelativeDocumentMoniker": "SysArchPrelim\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\SysArchPrelim\\SysArchPrelim\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\user\\Documents\\SysArchPrelim\\SysArchPrelim\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form1.cs [Design]",
+              "RelativeToolTip": "SysArchPrelim\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T01:38:01.94Z"
+              "WhenOpened": "2025-02-25T01:38:01.94Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form1.cs",
               "RelativeDocumentMoniker": "SysArchPrelim\\Form1.cs",
               "ToolTip": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Form1.cs",
               "RelativeToolTip": "SysArchPrelim\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T03:32:52.003Z"
+              "WhenOpened": "2025-02-25T03:32:52.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SysArchPrelim",
               "DocumentMoniker": "C:\\Users\\john2\\Documents\\GitHub\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\SysArchPrelim.csproj",
               "RelativeDocumentMoniker": "SysArchPrelim\\SysArchPrelim.csproj",
