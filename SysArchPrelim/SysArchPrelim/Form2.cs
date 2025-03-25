@@ -24,7 +24,7 @@ namespace SysArchPrelim
         {
             try
             {
-                dbConnect.OpenConnection();
+                dbConnect.OpenConnection();//open a connection to the database
                 string query = "SELECT * FROM College";
                 OleDbDataReader reader = dbConnect.ExecuteQuery(query);
                 DataTable dt = new DataTable();
