@@ -116,19 +116,19 @@ namespace SysArchPrelim
             {
                 try
                 {
-                    dbConnect.OpenConnection();
-                    string query = $"SELECT * FROM Department WHERE DepartmentID={DepartmentIDTextBox.Text}";
-                    OleDbDataReader reader = dbConnect.ExecuteQuery(query);
-                    if (reader.Read())
+                    dbConnect.OpenConnection();//open a connection
+                    string query = $"SELECT * FROM Department WHERE DepartmentID={DepartmentIDTextBox.Text}";//query by ID
+                    OleDbDataReader reader = dbConnect.ExecuteQuery(query);//execute query
+                    if (reader.Read())//record found
                     {
-                        CollegeIDTextBox.Text = reader["CollegeID"].ToString();
-                        DepartmentNameTextBox.Text = reader["DepartmentName"].ToString();
-                        DepartmentCodeTextBox.Text = reader["DepartmentCode"].ToString();
-                        IsActiveCheckBox.Checked = (bool)reader["IsActive"];
+                        CollegeIDTextBox.Text = reader["CollegeID"].ToString();//set collegeID
+                        DepartmentNameTextBox.Text = reader["DepartmentName"].ToString();//set department name
+                        DepartmentCodeTextBox.Text = reader["DepartmentCode"].ToString();//set department code
+                        IsActiveCheckBox.Checked = (bool)reader["IsActive"];//set isActive
                     }
                     else
                     {
-                        MessageBox.Show("Record not found!");
+                        MessageBox.Show("Record not found!");//no record found
                     }
                 }
                 catch (Exception ex)
