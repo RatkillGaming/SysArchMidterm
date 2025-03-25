@@ -1,2 +1,2 @@
 # SysArchMidterm
- yeah! this is for sysarch midterm project.
+ For Sysarch mid term

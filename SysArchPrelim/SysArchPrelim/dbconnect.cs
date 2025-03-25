@@ -3,22 +3,16 @@ using System.Data.OleDb;
 
 namespace SysArchPrelim
 {
-    public class DBConnect//AHIHI
+    public class DBConnect
     {
         private OleDbConnection connection;
 
-<<<<<<< HEAD
         public DBConnect()//test
-=======
-        public DBConnect()//QWE
->>>>>>> origin/feature
         {
             connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\Database.mdb");
-            //C:\Users\john2\Documents\GitHub\SysArchMidterm\SysArchPrelim - SYDNEY'S SOURCE PATH
-            //C:\\Users\\user\\Documents\\SysArchMidterm\\SysArchPrelim\\SysArchPrelim\\ - ZETH'S SOURCE PATH
         }
 
-        public void OpenConnection()//AHOHO
+        public void OpenConnection()
         {
             if (connection.State == System.Data.ConnectionState.Closed)
             {
