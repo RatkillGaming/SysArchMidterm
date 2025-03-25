@@ -25,8 +25,8 @@ namespace SysArchPrelim
             try
             {
                 dbConnect.OpenConnection();//open a connection to the database
-                string query = "SELECT * FROM College";
-                OleDbDataReader reader = dbConnect.ExecuteQuery(query);
+                string query = "SELECT * FROM College";//asd
+                OleDbDataReader reader = dbConnect.ExecuteQuery(query);//qwe
                 DataTable dt = new DataTable();
                 dt.Load(reader);
                 CollegeDataGridView.DataSource = dt;
