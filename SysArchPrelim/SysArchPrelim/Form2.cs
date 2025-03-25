@@ -41,7 +41,7 @@ namespace SysArchPrelim
             }
         }
 
-        private void AddRadioButtonCollege_CheckedChanged(object sender, EventArgs e)
+       // private void AddRadioButtonCollege_CheckedChanged(object sender, EventArgs e)
         {
             if (AddRadioButtonCollege.Checked)
             {
