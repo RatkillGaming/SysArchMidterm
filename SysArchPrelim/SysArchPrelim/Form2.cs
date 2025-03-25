@@ -24,14 +24,14 @@ namespace SysArchPrelim
         {
             try
             {
-                dbConnect.OpenConnection();
-                string query = "SELECT * FROM College";
-                OleDbDataReader reader = dbConnect.ExecuteQuery(query);
+                dbConnect.OpenConnection();//open a connection to the database
+                string query = "SELECT * FROM College";//asd
+                OleDbDataReader reader = dbConnect.ExecuteQuery(query);//qwe
                 DataTable dt = new DataTable();
                 dt.Load(reader);
                 CollegeDataGridView.DataSource = dt;
             }
-            catch (Exception ex)
+            catch (Exception ex) //added a catch exception
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
@@ -41,7 +41,7 @@ namespace SysArchPrelim
             }
         }
 
-        private void AddRadioButtonCollege_CheckedChanged(object sender, EventArgs e)
+       private void AddRadioButtonCollege_CheckedChanged(object sender, EventArgs e)
         {
             if (AddRadioButtonCollege.Checked)
             {
