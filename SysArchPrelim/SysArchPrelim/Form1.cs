@@ -122,7 +122,7 @@ namespace SysArchPrelim
                     if (reader.Read())//record found
                     {
                         CollegeIDTextBox.Text = reader["CollegeID"].ToString();//set collegeID
-                        DepartmentNameTextBox.Text = reader["DepartmentName"].ToString();
+                        DepartmentNameTextBox.Text = reader["DepartmentName"].ToString();//set department name
                         DepartmentCodeTextBox.Text = reader["DepartmentCode"].ToString();
                         IsActiveCheckBox.Checked = (bool)reader["IsActive"];
                     }
